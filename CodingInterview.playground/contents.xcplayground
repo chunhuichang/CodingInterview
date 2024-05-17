@@ -3,5 +3,6 @@
     <pages>
         <page name='Relative Ranks'/>
         <page name='Sum of All Odd Length Subarrays'/>
+        <page name='Absolute Value Sort'/>
     </pages>
 </playground>
