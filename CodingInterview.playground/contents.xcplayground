@@ -7,5 +7,6 @@
         <page name='Getting a Different Number'/>
         <page name='Rings and Rods'/>
         <page name='Pairs with Specitic Difference'/>
+        <page name='Letter Case Permutation'/>
     </pages>
 </playground>
