@@ -8,5 +8,6 @@
         <page name='Rings and Rods'/>
         <page name='Pairs with Specitic Difference'/>
         <page name='Letter Case Permutation'/>
+        <page name='Product of Array Except Self'/>
     </pages>
 </playground>
