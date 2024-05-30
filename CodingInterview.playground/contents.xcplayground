@@ -9,6 +9,7 @@
         <page name='Pairs with Specitic Difference'/>
         <page name='Letter Case Permutation'/>
         <page name='Product of Array Except Self'/>
+        <page name='Valid Anagram'/>
         <page name='3Sum'/>
     </pages>
 </playground>
