@@ -13,5 +13,6 @@
         <page name='3Sum'/>
         <page name='Two Sum II'/>
         <page name='Longest Substring Without Repeating Characters '/>
+        <page name='Longest Repeating Character Replacement'/>
     </pages>
 </playground>
