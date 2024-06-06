@@ -14,5 +14,6 @@
         <page name='Two Sum II'/>
         <page name='Longest Substring Without Repeating Characters '/>
         <page name='Longest Repeating Character Replacement'/>
+        <page name='Valid Parentheses'/>
     </pages>
 </playground>
