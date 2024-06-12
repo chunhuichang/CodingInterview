@@ -17,5 +17,6 @@
         <page name='Valid Parentheses'/>
         <page name='Car Fleet'/>
         <page name='Find Minimum in Rotated Sorted Array'/>
+        <page name='Search in Rotated Sorted Array'/>
     </pages>
 </playground>
