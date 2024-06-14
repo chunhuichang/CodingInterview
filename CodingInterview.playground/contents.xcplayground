@@ -16,8 +16,9 @@
         <page name='Longest Repeating Character Replacement'/>
         <page name='Valid Parentheses'/>
         <page name='Car Fleet'/>
+        <page name='Binary Search'/>
         <page name='Find Minimum in Rotated Sorted Array'/>
         <page name='Search in Rotated Sorted Array'/>
-        <page name='Binary Search'/>
+        <page name='Reverse Linked List'/>
     </pages>
 </playground>
