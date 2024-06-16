@@ -16,7 +16,10 @@ class Solution {
             lhs.val == rhs.val && lhs.next == rhs.next
         }
     }
-
+    
+    /// Reverse Linked List
+    /// - Parameter head: singly linked list
+    /// - Returns: reversed linked list
     func reverseList(_ head: ListNode?) -> ListNode? {
         // Separate the part that doesn't need to be reversed
         guard head != nil, head?.next != nil else {
