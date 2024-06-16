@@ -19,6 +19,7 @@
         <page name='Binary Search'/>
         <page name='Find Minimum in Rotated Sorted Array'/>
         <page name='Search in Rotated Sorted Array'/>
+        <page name='Find the Duplicate Number'/>
         <page name='Reverse Linked List'/>
     </pages>
 </playground>
