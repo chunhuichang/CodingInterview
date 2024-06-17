@@ -22,5 +22,6 @@
         <page name='Find the Duplicate Number'/>
         <page name='Linked List Cycle'/>
         <page name='Reverse Linked List'/>
+        <page name='Reverse Nodes in k-Group'/>
     </pages>
 </playground>
