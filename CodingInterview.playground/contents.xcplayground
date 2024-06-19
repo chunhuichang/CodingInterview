@@ -23,5 +23,6 @@
         <page name='Linked List Cycle'/>
         <page name='Reverse Linked List'/>
         <page name='Reverse Nodes in k-Group'/>
+        <page name='Add Two Numbers'/>
     </pages>
 </playground>
