@@ -23,5 +23,8 @@
         <page name='Linked List Cycle'/>
         <page name='Reverse Linked List'/>
         <page name='Reverse Nodes in k-Group'/>
+        <page name='Add Two Numbers'/>
+        <page name='Merge Sorted Array'/>
+        <page name='Remove Nth Node From End of List'/>
     </pages>
 </playground>
