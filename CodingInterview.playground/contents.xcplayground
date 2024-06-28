@@ -28,5 +28,6 @@
         <page name='Remove Nth Node From End of List'/>
         <page name='Count Good Nodes in Binary Tree'/>
         <page name='Invert Binary Tree'/>
+        <page name='Validate Binary Search Tree'/>
     </pages>
 </playground>
