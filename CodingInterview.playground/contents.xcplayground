@@ -25,6 +25,7 @@
         <page name='Reverse Nodes in k-Group'/>
         <page name='Add Two Numbers'/>
         <page name='Merge Sorted Array'/>
+        <page name='Count Good Nodes in Binary Tree'/>
         <page name='Remove Nth Node From End of List'/>
     </pages>
 </playground>
