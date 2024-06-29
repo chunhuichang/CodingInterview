@@ -5,6 +5,7 @@ import Foundation
  */
 
 class Solution {
+    /// Definition for a binary tree node.
     class TreeNode: Equatable {
         var val: Int
         var left: TreeNode?

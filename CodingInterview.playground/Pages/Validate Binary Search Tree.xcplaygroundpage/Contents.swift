@@ -11,6 +11,7 @@ import Foundation
  */
 
 class Solution {
+    /// Definition for a binary tree node.
     class TreeNode {
         var val: Int
         var left: TreeNode?
