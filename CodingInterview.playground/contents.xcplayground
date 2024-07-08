@@ -30,5 +30,8 @@
         <page name='Invert Binary Tree'/>
         <page name='Validate Binary Search Tree'/>
         <page name='Construct Binary Tree from Preorder and Inorder Traversal'/>
+        <page name='Implement Trie (Prefix Tree)'/>
+        <page name='Design Add and Search Words Data Structure'/>
+        <page name='Word Search II'/>
     </pages>
 </playground>
