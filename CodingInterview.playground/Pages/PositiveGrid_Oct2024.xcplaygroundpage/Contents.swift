@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 // MARK: - Find Intersection
 
@@ -13,3 +14,23 @@ assert(PGRange.isIntersection(PGRange(position: 2, length: -3), PGRange(position
 // MARK: No intersection
 
 assert(PGRange.isIntersection(PGRange(position: 2, length: -3), PGRange(position: 3, length: 1)) == false)
+
+// MARK: - Find Subviews
+
+// Setup some example views
+let containerView = UIView()
+let button1 = UIButton()
+let button2 = UIButton()
+let label = UILabel()
+let innerView = UIView()
+let button3 = UIButton()
+
+// Create view hierarchy
+containerView.addSubview(button1)
+containerView.addSubview(button2)
+containerView.addSubview(label)
+containerView.addSubview(innerView)
+innerView.addSubview(button3)
+
+assert(containerView.findAllSubviews(of: UIButton.self).count == 3)
+assert(containerView.findAllSubviews(of: UILabel.self).count == 1)
