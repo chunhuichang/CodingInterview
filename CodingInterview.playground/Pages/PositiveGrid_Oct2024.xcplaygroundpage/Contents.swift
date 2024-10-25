@@ -1,4 +1,5 @@
 import Foundation
+import PlaygroundSupport
 import UIKit
 
 // MARK: - Find Intersection
@@ -34,3 +35,19 @@ innerView.addSubview(button3)
 
 assert(containerView.findAllSubviews(of: UIButton.self).count == 3)
 assert(containerView.findAllSubviews(of: UILabel.self).count == 1)
+
+// MARK: - Implement Debouncer
+
+let debouncer = Debouncer(seconds: 0.5)
+let action = { actionExecutedCount += 1 }
+var actionExecutedCount = 0
+
+// Multiple triggers of debounce should execute only the last action
+for _ in 1 ... 5 {
+    debouncer.execute(action)
+}
+
+DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+    assert(actionExecutedCount == 1, "Expected actionExecutedCount to be 1, but got \(actionExecutedCount)")
+    PlaygroundPage.current.finishExecution()
+}
